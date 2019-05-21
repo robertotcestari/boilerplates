@@ -98,3 +98,10 @@ Once you have done one, or both, of the above installs. You probably want your e
 // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
 "prettier.disableLanguages": ["javascript", "javascriptreact"],
 ```
+
+## Arquivos usados no boilerplate
+
+- Tive que criar um `package.json` para colocar os pacotes.
+- Também criei um `.eslintrc` que contém as infos do eslint que quero fazer override.
+- Criei aqui um `.markdownlint.json` que é para a extensão markdownlint do vscode, para desabilitar alguns códigos de erro no MD.
+- Criei um arquivo `example-code.js` para brincar com js e linting
