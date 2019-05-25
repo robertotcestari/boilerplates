@@ -1,5 +1,15 @@
 # Setup Inicial
 
+## Meus Globais
+Instalei o setup do Wesbos global, para que não tenha toda vez que instalar localmente. Para remover, basta o comando
+
+```bash
+npm remove --global eslint-config-wesbos babel-eslint eslint eslint-config-prettier eslint-config-airbnb eslint-plugin-html eslint-plugin-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react prettier eslint-plugin-react-hooks
+```
+
+Lembrar também de deletar o arquivo `~/.eslintrc`
+
+## Iniciando
 Vamos integrar o **eslint**, o **Prettier** e o **Airbnb Style Guide**. Vamos seguir o tutorial do Wesbos.
 [Tutorial](https://github.com/wesbos/eslint-config-wesbos)
 
